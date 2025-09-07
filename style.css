@@ -1,0 +1,57 @@
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+}
+
+/* Header */
+header {
+  text-align: left;
+  padding: 1rem;
+  background: white;
+}
+
+/* Basic styles for nav links */
+nav {
+  margin-bottom: 0.75rem;
+}
+nav a {
+  margin-right: 1.2rem;
+  color: blue;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+/* Logo */
+.logo {
+  width: 110px;  
+  height: auto;
+  display: block;
+  margin: 1rem 0;
+}
+
+/* Main section */
+main {
+  padding: 1rem;
+}
+
+/* Boxes for each department, styled with green borders */
+.department {
+  border: 2px solid green;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 0;   
+  background: white;  
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  background: white;
+  color: black;
+}
